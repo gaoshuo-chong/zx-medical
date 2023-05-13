@@ -1,0 +1,1 @@
+<view>助手<my-tab vue-id="c2e27d8c-1" current-page="{{1}}" bind:__l="__l"></my-tab></view>

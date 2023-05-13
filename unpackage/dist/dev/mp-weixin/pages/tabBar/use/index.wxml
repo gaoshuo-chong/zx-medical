@@ -1,0 +1,1 @@
+<view>常用<my-tab vue-id="694344d8-1" current-page="{{2}}" bind:__l="__l"></my-tab></view>

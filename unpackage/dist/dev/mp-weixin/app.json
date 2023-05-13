@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/tabBar/tools/index",
+    "pages/tabBar/help/index",
+    "pages/tabBar/use/index",
+    "pages/tabBar/analyse/index",
+    "pages/tabBar/my/index",
+    "pages/fullPage/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "CRM",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#f00",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "midButton": {
+      "text": "常用",
+      "pagePath": "pages/tabBar/use/index",
+      "iconPath": "static/source.png",
+      "selectedIconPath": "static/source-selected.png"
+    },
+    "list": [
+      {
+        "pagePath": "pages/tabBar/tools/index",
+        "iconPath": "static/source.png",
+        "selectedIconPath": "static/source-selected.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/tabBar/help/index",
+        "iconPath": "static/source.png",
+        "selectedIconPath": "static/source-selected.png",
+        "text": "助手"
+      },
+      {
+        "pagePath": "pages/tabBar/use/index",
+        "iconPath": "static/source.png",
+        "selectedIconPath": "static/source-selected.png",
+        "text": "常用"
+      },
+      {
+        "pagePath": "pages/tabBar/analyse/index",
+        "iconPath": "static/source.png",
+        "selectedIconPath": "static/source-selected.png",
+        "text": "分析"
+      },
+      {
+        "pagePath": "pages/tabBar/my/index",
+        "iconPath": "static/source.png",
+        "selectedIconPath": "static/source-selected.png",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {
+    "my-tab": "/components/myTab"
+  }
+}

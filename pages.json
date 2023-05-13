@@ -1,0 +1,109 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			// uview-ui
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+			// @dcloudio
+			// "^uni-(.*)": "components/uni-$1/uni-$1.vue"
+		}
+	},
+
+	"pages": [{
+			"path": "pages/tabBar/tools/index",
+			"style": {
+				"navigationBarTitleText": "你好哇！李银河"
+				// "navigationStyle": "custom"
+
+			}
+		}, {
+			"path": "pages/tabBar/help/index",
+			"style": {
+				"navigationBarTitleText": "助手"
+			}
+
+		}, {
+			"path": "pages/tabBar/use/index",
+			"style": {
+				"navigationBarTitleText": "常用"
+			}
+
+		}, {
+			"path": "pages/tabBar/analyse/index",
+			"style": {
+				"navigationBarTitleText": "分析"
+			}
+
+		}, {
+			"path": "pages/tabBar/my/index",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+
+		},
+		{
+			"path": "pages/fullPage/index",
+			"style": {
+				"navigationStyle": "custom", // 取消本页面的导航栏
+				"app-plus": {
+					"animationType": "fade-in", // 设置fade-in淡入动画，为最合理的动画类型
+					"background": "transparent", // 背景透明
+					"backgroundColor": "rgba(0,0,0,0)", // 背景透明
+					"popGesture": "none" // 关闭IOS屏幕左边滑动关闭当前页面的功能
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "CRM",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#f00",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"midButton": {
+			"text": "常用",
+			"pagePath": "pages/tabBar/use/index",
+			"iconPath": "static/source.png",
+			"selectedIconPath": "static/source-selected.png"
+		},
+		"list": [{
+				"pagePath": "pages/tabBar/tools/index",
+				"iconPath": "static/source.png",
+				"selectedIconPath": "static/source-selected.png",
+				"text": ""
+			},
+			{
+				"pagePath": "pages/tabBar/help/index",
+				"iconPath": "static/source.png",
+				"selectedIconPath": "static/source-selected.png",
+				"text": "助手"
+			},
+			{
+				"pagePath": "pages/tabBar/use/index",
+				"iconPath": "static/source.png",
+				"selectedIconPath": "static/source-selected.png",
+				"text": "常用"
+			},
+			{
+				"pagePath": "pages/tabBar/analyse/index",
+				"iconPath": "static/source.png",
+				"selectedIconPath": "static/source-selected.png",
+				"text": "分析"
+			},
+			{
+				"pagePath": "pages/tabBar/my/index",
+				"iconPath": "static/source.png",
+				"selectedIconPath": "static/source-selected.png",
+				"text": "我"
+			}
+		]
+	}
+}

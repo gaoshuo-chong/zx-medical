@@ -1,0 +1,1 @@
+<view>分析<my-tab vue-id="ca6839b0-1" current-page="{{3}}" bind:__l="__l"></my-tab></view>
